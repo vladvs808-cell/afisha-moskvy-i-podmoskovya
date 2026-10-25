@@ -1,0 +1,25 @@
+# robots.txt для afisha-podmoskovye.netlify.app
+# Обновлено: 2026
+
+# Разрешаем всем роботам индексировать сайт
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /*.json$
+
+# Яндекс
+User-agent: YandexBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /data/
+
+# Указываем карту сайта
+Sitemap: https://afisha-podmoskovye.netlify.app/sitemap.xml
+
+# Указываем основной домен
+Host: afisha-podmoskovye.netlify.app

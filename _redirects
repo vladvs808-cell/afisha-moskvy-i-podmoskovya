@@ -1,0 +1,11 @@
+# Netlify Redirects
+# Документация: https://docs.netlify.com/routing/redirects/
+
+# WWW -> Non-WWW (SEO)
+https://www.afisha-podmoskovye.netlify.app/*  https://afisha-podmoskovye.netlify.app/:splat  301!
+
+# HTTP -> HTTPS
+http://afisha-podmoskovye.netlify.app/*  https://afisha-podmoskovye.netlify.app/:splat  301!
+
+# SPA Fallback (для будущего роутинга)
+/*  /index.html  200
